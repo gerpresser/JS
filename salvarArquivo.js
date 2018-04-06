@@ -52,7 +52,7 @@ function salvarArquivo(arquivoConvertido){
           $("#layoutselecionado").val(nomeArquivo+"."+extensao);
           
           $("#tooltipLayout").tooltip({ 
-            content: '<img src="/licitacao/Arquivos/ecommerce/'+nomeArquivo+"."+extensao+'" width="300" height="300"/>',
+            content: '<img src="/raiz/ecommerce/imagem/'+nomeArquivo+"."+extensao+'" width="300" height="300"/>',
             track: true
           });
 
