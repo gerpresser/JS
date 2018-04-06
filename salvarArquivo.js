@@ -1,3 +1,7 @@
+/* ------------------------------------------------------- 
+   Função para salvar arquivos, com progresso do envio
+------------------------------------------------------- */
+
 function salvarArquivo(arquivoConvertido){
 
   $("#containerProgress").fadeIn();
