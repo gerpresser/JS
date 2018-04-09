@@ -1,3 +1,7 @@
+/* -----------------------------------------------------------------
+   Monta uma tabela dinamica com o result set, separado por região
+----------------------------------------------------------------- */
+
 function montarTabela(){
 
   var statusPesquisa = "";
