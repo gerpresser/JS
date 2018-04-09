@@ -102,7 +102,7 @@ function montarTabela(){
          $.each(result, function (i, valor) {
             totalVotos += valor.totalVotos;
 
-            linha += "<tr "+estilo+">";
+            linha += "<tr>";
             linha += " <td class='text-center'>"+valor.candidato+"</td>";
             linha += " <td class='text-center'>"+valor.totalVotos+"</td>";
             linha += "</tr>";
